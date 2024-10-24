@@ -1,0 +1,71 @@
+/* Styles de base */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav .main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav .main-menu li {
+    display: inline-block;
+}
+
+nav .main-menu li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+nav .main-menu li a:hover {
+    color: #007bff;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.featured-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
